@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8">
+    <title>關於我們 | NovaStudio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Bootstrap 5 RWD 全站示範專案">
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+  <body class="page page--about">
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm site-header__nav">
+        <div class="container">
+          <a class="navbar-brand site-header__brand" href="/">NovaStudio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto site-header__menu">
+              
+              <li class="nav-item site-header__menu-item">
+                <a
+                  class="nav-link site-header__menu-link"
+                  href="/"
+                >
+                  首頁
+                </a>
+              </li>
+              
+              <li class="nav-item site-header__menu-item">
+                <a
+                  class="nav-link site-header__menu-link"
+                  href="/services/"
+                >
+                  服務項目
+                </a>
+              </li>
+              
+              <li class="nav-item site-header__menu-item">
+                <a
+                  class="nav-link site-header__menu-link site-header__menu-link--active"
+                  href="/about/"
+                >
+                  關於我們
+                </a>
+              </li>
+              
+              <li class="nav-item site-header__menu-item">
+                <a
+                  class="nav-link site-header__menu-link"
+                  href="/contact/"
+                >
+                  聯絡我們
+                </a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="site-main">
+      
+
+<div class="row g-4 align-items-start">
+  <div class="col-lg-7">
+    <p>
+      這個專案是用來展示「Bootstrap 5 + SCSS + BEM + SSG（Eleventy）」的多頁式網站結構，
+      方便你在投遞案件時，直接附上 GitHub 與 Demo 連結，證明你有完整全站切版的實作能力。
+    </p>
+    <p>
+      你可以在表單上這樣描述這個作品：<br>
+      「以 Eleventy 建立 Bootstrap 5 RWD 全站切版範本，使用 SCSS 變數客製主題色與元件風格，
+      採 BEM 命名規範，包含首頁、服務、關於與聯絡等多頁式結構。」
+    </p>
+  </div>
+  <div class="col-lg-5">
+    <div class="about-meta">
+      <h2 class="about-meta__title">專案技術摘要</h2>
+      <ul class="about-meta__list">
+        <li class="about-meta__list-item">HTML5 / CSS3 / SCSS</li>
+        <li class="about-meta__list-item">Bootstrap 5（自訂變數編譯）</li>
+        <li class="about-meta__list-item">BEM 命名、RWD 版面</li>
+        <li class="about-meta__list-item">Eleventy 靜態網站產生器</li>
+        <li class="about-meta__list-item">Node 20 / Yarn</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+    </main>
+
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <p class="site-footer__text mb-0">© 2025 NovaStudio. All rights reserved.</p>
+  </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="/assets/js/main.js" defer></script>
+  </body>
+</html>
