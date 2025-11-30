@@ -1,0 +1,18 @@
+{% extends "layouts/base.njk" %}
+
+{% block content %}
+<section class="page-hero">
+  <div class="container">
+    <h1 class="page-hero__title">{{ title }}</h1>
+    {% if intro %}
+    <p class="page-hero__intro">{{ intro }}</p>
+    {% endif %}
+  </div>
+</section>
+
+<section class="page-content">
+  <div class="container page-content__inner">
+    {{ content | safe }}
+  </div>
+</section>
+{% endblock %}
